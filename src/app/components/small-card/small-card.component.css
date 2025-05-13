@@ -1,0 +1,46 @@
+.container__small-card-cont {
+  width: 500px;
+}
+
+.container__small-card-content {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+
+}
+
+.small-card__title > h1 {
+    font-size: 20px;
+  
+}
+
+.small-card__photo > img {
+  width: 200px;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+container__small-card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.small-card__description > p{
+    font-size: 12px;
+    color: red;
+    width: 500px;
+    margin-top: 5px;
+
+    && a {
+      color: grey;
+    }
+}
+
+.container__small-card__separator{
+    margin-bottom: 15px;
+
+    
+}
+
