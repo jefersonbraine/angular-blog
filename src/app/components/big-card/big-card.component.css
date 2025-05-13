@@ -15,8 +15,17 @@
     font-size: 20px;
 }
 
-.big-card__description > p {
+.big-card__description {
+    margin-top: 5px;
+}
+
+.big-card__description > p > a {
     margin-top: 5px;
     color: grey;
     font-size: 12px;
+}
+
+.big-card__photo > img{
+    width: 100%;
+    min-width: 400px;
 }
