@@ -1,25 +1,22 @@
 <div class="container__small-card">
   <div class="container__small-card-content">
     <div class="small-card__photo">
-      <img
-        src="https://disneyplusbrasil.com.br/wp-content/uploads/2024/05/Marvel-Disney-Plus-Logo.jpg"
-        alt=""
-      />
+      <img src="{{ photoCover }}" alt="" />
     </div>
 
-
     <div class="container__small-card-text">
-        <div class="small-card__title">
-          <h1><a href="#"> Saiu a nova versão do Angular </a></h1>
-        </div>
-        <div class="small-card__description">
-          <p>
-            <a href="#">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
-              officia quisquam beatae itaque optio dolores animi? Commodi aut.
-            </a>
-          </p>
-        </div>
+      <div class="small-card__title">
+        <h1>
+          <a href="#"> {{ cardTitle }} </a>
+        </h1>
+      </div>
+      <div class="small-card__description">
+        <p>
+          <a href="#">
+            {{ cardDescription }}
+          </a>
+        </p>
+      </div>
     </div>
   </div>
 
